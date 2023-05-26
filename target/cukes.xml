@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.455" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Sign-In" name="User sign-in with valid credentials" time="16.225">
+<system-out><![CDATA[
+Given user go to login page.................................................passed
+When sign in with valid credentials.........................................passed
+And navigate to the courses page............................................passed
+And click on the create course button.......................................passed
+And fill in the course basic info...........................................passed
+And save the course.........................................................passed
+Then should see the course title displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
